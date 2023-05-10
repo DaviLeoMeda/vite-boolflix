@@ -1,9 +1,24 @@
 <script >
+// import axios from 'axios';
+// import { store } from './store.js'
+import HeaderComp from './components/HeaderComp.vue'
+import MainComp from './components/MainComp.vue'
 
+
+
+export default {
+  name: 'App',
+  components: {
+    HeaderComp,
+    MainComp
+
+  }
+}
 </script>
 
 <template>
-  <h1>Ciao mondo</h1>
+  <HeaderComp />
+  <MainComp />
 </template>
 
 <style lang="scss">
